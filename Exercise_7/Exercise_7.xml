@@ -1,0 +1,149 @@
+<!-- Exercise 7 -->
+
+<!-- activity_main.xml-->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="1dp"
+    android:stretchColumns="4"
+    android:layout_marginTop="100dp">
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:text="EXAMINATION" />
+       <TextView
+           android:layout_marginLeft="2dp"
+           android:layout_weight="3"
+           android:background="#FFF"
+           android:padding="5dp"
+           android:text="BOARD" />
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:text="PERCENTAGE" />
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:text="YEAR_OF_PASS" />
+
+    </TableRow>
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:padding="7.5dp"
+            android:background="#FFF"
+            android:text="CLASS X" />
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---"/>
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---"/>
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---" />
+
+    </TableRow>
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:padding="7.5dp"
+            android:background="#FFF"
+            android:text="CLASS XII" />
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---"/>
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---"/>
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---" />
+    </TableRow>
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:padding="7.5dp"
+            android:background="#FFF"
+            android:text="GRADUATION" />
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---"/>
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---"/>
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_weight="3"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:hint="---Enter---" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="SUBMIT  MARKS" />
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</TableLayout>
+
